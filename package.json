@@ -23,6 +23,7 @@
 	"dependencies": {
 		"autoprefixer": "^10.4.19",
 		"postcss": "^8.4.38",
+		"socket.io": "^4.7.5",
 		"tailwindcss": "^3.4.3"
 	}
 }
