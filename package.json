@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"name": "chatapp",
 	"version": "0.0.1",
 	"private": true,
@@ -38,5 +37,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
->>>>>>> 9331b3b (Minor changes)
 }
