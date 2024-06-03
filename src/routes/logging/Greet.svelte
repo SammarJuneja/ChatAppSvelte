@@ -1,0 +1,15 @@
+<script>
+  import { route } from "../../stores/store";
+</script>
+
+<div class="grid">
+    <h1 class="text-white text-2xl flex items-center justify-center mt-20">Welcome to the Open Chat</h1>
+    <div class="mt-40 border-2 mb-10 p-10 rounded-2xl border-gray-950 bg-gray-950 text-white text-lg mx-auto hover:p-12">
+        <button on:click={() => { $route.path = "/signup"}} class="bg-blue-700 my-2 py-1 flex items-center justify-center w-40 rounded-md hover:p-2">
+            <h3>Signup</h3>
+        </button>
+        <button on:click={() => { $route.path = "/login"}} class="bg-neutral-700 my-2 py-1 flex items-center justify-center w-40 rounded-md hover:p-2">
+            <h3>Login</h3>
+        </button>
+    </div>
+</div>
